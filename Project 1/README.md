@@ -1,6 +1,5 @@
 # 📌 Port Scan Detection Engine
 
-![License](https://img.shields.io/badge/license-Unlicense-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.x-green.svg)
 
 ## 📝 Overview
@@ -58,7 +57,9 @@ To verify the detector's functionality, follow these steps:
 
 1. **Install Dependencies:** ``` pip install dpkt ```
 2. **Run the Detector:** Use the provided sample PCAP files (e.g., null_scan.pcap) to check for specific scans:
-   ``` python3 dg0099.py -i <filename>.pcap ```
+   ``` python
+       python3 dg0099.py -i <filename>.pcap
+   ```
 3. **Verify Output:** The terminal will display the counts for each scan type identified in that specific file.
 
 ## 📊 Results / Findings
@@ -74,8 +75,12 @@ The script successfully processed various PCAP captures, yielding the following 
 
 **Key Insight:** The high packet counts demonstrate the script's capability to handle large-scale reconnaissance data efficiently.
 
-## 🖼️ Screenshots
-Below are the terminal outputs verifying the detection results:
+## 🖼️ Screenshots / Diagram
+
+### 1. Architecture Diagram
+   <img width="800" height="400" alt="Arch-Diagram" src="https://github.com/user-attachments/assets/dcf2ef34-81f2-4cef-bfed-b225aea8d69b" />
+
+### 2. Terminal Output
 
 Figure 1: Detection results for Connect, Half-open, Null, and UDP scan captures. 
 <img width="750" height="425" alt="1" src="https://github.com/user-attachments/assets/a9fa145a-b9a1-4b62-8296-8c7b0dcd6027" />

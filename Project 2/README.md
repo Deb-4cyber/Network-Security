@@ -43,18 +43,20 @@ if isinstance(ip.data, dpkt.tcp.TCP):
 ### 3. Sequence Matching Logic
 A sliding window algorithm is used to compare the recorded packet hits against the expected sequence defined in the configuration. This ensures that the engine can detect a valid knock even if it is surrounded by other network traffic.
 
-```python
-# Validating ports and time constraints
-# We iterate through the list of captured knocks using a sliding window
-for i in range(len(knock_list) - len(ports) + 1):
-    # 'zip' extracts the timestamps and port numbers for the current window
-    times, ports_found = zip(*knock_list[i:i+len(ports)])
+``` python
+    for i in range(len(knock_list) - len(ports) + 1):
+    # 'zip' extracts the timestamps and port numbers for the current window times, ports_found = zip(*knock_list[i:i+len(ports)]) 
+   
+    # Validation: Match sequence AND verify it occurred within the timeout window
+    if list(ports_found) == ports and (times[-1] - times[0] <= timeout):
+        print(f"Detected {name} sequence from {host}") 
 ```
+        
 # 🧪 How to Test
 
-- **Install Dependencies:** ``` pip install dpkt ```
+1. **Install Dependencies:** ``` pip install dpkt ```
 
-- **Run the Detector:** ``` python3 dg0099.py -i <capture_file>.pcap ```
+2. **Run the Detector:** ``` python3 dg0099.py -i <capture_file>.pcap ```
 
 ## 📊 Results / Findings
 The script was validated against the provided `netlog.pcap` file. The engine successfully reconstructed the timeline of events, identifying both the authorization (open) and de-authorization (close) sequences.

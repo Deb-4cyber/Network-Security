@@ -45,7 +45,8 @@ A sliding window algorithm is used to compare the recorded packet hits against t
 
 ``` python
     for i in range(len(knock_list) - len(ports) + 1):
-    # 'zip' extracts the timestamps and port numbers for the current window times, ports_found = zip(*knock_list[i:i+len(ports)]) 
+    # 'zip' extracts the timestamps and port numbers for the current window
+    times, ports_found= zip(*knock_list[i:i+len(ports)]) 
    
     # Validation: Match sequence AND verify it occurred within the timeout window
     if list(ports_found) == ports and (times[-1] - times[0] <= timeout):

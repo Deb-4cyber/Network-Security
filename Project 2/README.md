@@ -75,9 +75,9 @@ The script was validated against the provided `netlog.pcap` file. The engine suc
 * **Temporal Integrity:** By enforcing the `seq_timeout`, the engine ensures that random port hits over a long period are not falsely identified as valid knocks.
 * **Automation:** This logic effectively functions as an automated forensic auditor, turning thousands of raw packets into a few lines of actionable security alerts.
 
-## 🖼️ Screenshots / Diagrams 
+## 🖼️ Screenshots / Diagram
 
-### 1. Architecture
+### 1. Architecture Diagram
 <img width="800" height="550" alt="Arch-Diagram" src="https://github.com/user-attachments/assets/1d9a603d-eb29-4398-a736-4a31ad33a073" />
 
 ### 2. Terminal Output

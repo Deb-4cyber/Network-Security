@@ -1,6 +1,5 @@
 # 📌 Port Knocking Sequence Detector (HIDS Engine)
 
-![License](https://img.shields.io/badge/license-Unlicense-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.x-green.svg)
 
 ## 📝 Overview

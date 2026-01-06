@@ -1,5 +1,8 @@
 # 📌 Port Knocking Sequence Detector (HIDS Engine)
 
+![License](https://img.shields.io/badge/license-Unlicense-blue.svg)
+![Python](https://img.shields.io/badge/python-3.x-green.svg)
+
 ## 📝 Overview
 This project demonstrates the implementation and forensic detection of **Port Knocking**, a defense-in-depth technique used to stealthily open firewall ports. The goal was to build a specialized **Host-based Intrusion Detection System (HIDS)** that automates the analysis of network traffic to identify hidden connection sequences and validate them against system configuration rules.
 

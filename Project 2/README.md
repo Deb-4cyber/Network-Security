@@ -78,9 +78,9 @@ The script was validated against the provided `netlog.pcap` file. The engine suc
 ## 🖼️ Screenshots / Diagrams 
 
 ### 1. Architecture
-<img width="600" height="300" alt="Arch-Diagram" src="https://github.com/user-attachments/assets/dd3cc5d9-bdfa-4af6-a357-0d1cf9c97fe6" />
+<img width="800" height="550" alt="Arch-Diagram" src="https://github.com/user-attachments/assets/1d9a603d-eb29-4398-a736-4a31ad33a073" />
 
-### 2. Execution Proof
+### 2. Terminal Output
 <img width="700" height="100" alt="1" src="https://github.com/user-attachments/assets/eb88ccfa-3730-41a9-a8f0-43d469eadfcc" />
 
 ## 💡 Challenges & Lessons Learned

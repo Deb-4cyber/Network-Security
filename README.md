@@ -8,7 +8,7 @@ A high-performance suite of **Intrusion Detection Systems (IDS)** and **Forensic
 
 | Project | Role | Industry Value |
 | :--- | :--- | :--- |
-| **[Port Scan Detection](https://github.com/Deb-4cyber/network-security/Project 1)** | **Network IDS** | Identifies stealthy reconnaissance (XMAS/Null) at the perimeter. |
+| **[Port Scan Detection](https://github.com/Deb-4cyber/Network-Security/tree/main/Project%201)** | **Network IDS** | Identifies stealthy reconnaissance (XMAS/Null) at the perimeter. |
 | **[Port Knocking](Project 2)** | **Host-based IDS** | Secures critical services via stateful sequence validation. |
 
 ---

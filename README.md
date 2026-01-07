@@ -1,6 +1,6 @@
 # 🛡️ Network Security: Automated IDS & Forensic Toolkit
 
-A high-performance suite of **Intrusion Detection Systems (IDS)** and **Forensic Engines** designed to transform raw network packets into actionable security intelligence. This toolkit automates the detection of sophisticated reconnaissance and stealthy access patterns.
+A high-performance suite of **Intrusion Detection Systems (IDS)** and **Forensic Engines** designed to transform raw network packets into actionable security intelligence. **This repository contains two projects Port Scanning and Port Knocking with direct clickable links in the project spotlight**.
 
 ---
 

@@ -8,8 +8,8 @@ A high-performance suite of **Intrusion Detection Systems (IDS)** and **Forensic
 
 | Project | Role | Industry Value |
 | :--- | :--- | :--- |
-| **[Port Scan Detection](./Project-1-Port-Scanning)** | **Network IDS** | Identifies stealthy reconnaissance (XMAS/Null) at the perimeter. |
-| **[Port Knocking](./Project-2-Port-Knocking)** | **Host-based IDS** | Secures critical services via stateful sequence validation. |
+| **[Port Scan Detection](Project 1)** | **Network IDS** | Identifies stealthy reconnaissance (XMAS/Null) at the perimeter. |
+| **[Port Knocking](Project 2)** | **Host-based IDS** | Secures critical services via stateful sequence validation. |
 
 ---
 

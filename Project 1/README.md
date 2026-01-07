@@ -5,7 +5,7 @@
 ## 📝 Overview
 This project contains a specialized network security tool I developed to automate the detection of various Nmap port scanning techniques. By utilizing the `dpkt` library, the script parses raw packet data from `.pcap` files to identify and categorize scanning signatures. This project demonstrates my ability to translate network protocol theory into functional Python code for security analysis.
 
-## ⚙️ Methodology / Approach
+## ⚙️ Methodology 
 To build this detector, I focused on identifying specific TCP flag combinations and transport layer protocols that characterize different scanning behaviors:
 1.  **Bitwise Flag Analysis:** I mapped the TCP header flags (FIN, URG, PUSH, SYN, ACK) to the bitmasks defined in the `dpkt` library.
 2.  **Protocol Filtering:** I implemented checks to ensure the script only processes IP packets, further drilling down into TCP or UDP payloads as needed.
@@ -17,7 +17,7 @@ To build this detector, I focused on identifying specific TCP flag combinations 
 - **argparse:** Used to handle command-line arguments for file input.
 - **Nmap & Wireshark:** Used to generate the test data and verify the ground truth of the captures.
 
-## 💻 Implementation / Steps
+## 💻 Implementation 
 I wrote the script `dg0099.py` to handle the logic in a single, efficient pass through the PCAP file.
 
 ### Inside the Script (`dg0099.py`):

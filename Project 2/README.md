@@ -5,7 +5,7 @@
 ## 📝 Overview
 This project demonstrates the implementation and forensic detection of **Port Knocking**, a defense-in-depth technique used to stealthily open firewall ports. The goal was to build a specialized **Host-based Intrusion Detection System (HIDS)** that automates the analysis of network traffic to identify hidden connection sequences and validate them against system configuration rules.
 
-## ⚙️ Methodology / Approach
+## ⚙️ Methodology 
 To build a reliable detection engine, I focused on **Stateful Packet Correlation**:
 - **Rule Ingestion:** Designed a parser to read standard `knockd.conf` files to establish the "ground truth" for valid signatures.
 - **Traffic Grouping:** Implemented a system to group incoming packets by Source/Destination IP pairs to track individual connection attempts.
@@ -19,7 +19,7 @@ To build a reliable detection engine, I focused on **Stateful Packet Correlation
 - **Iptables:** The Linux firewall used to maintain the "stealth" port state.
 - **Netcat (nc):** Used to generate the knock sequences during testing.
 
-## 💻 Implementation / Steps
+## 💻 Implementation 
 The implementation is contained in `dg0099.py`, which bridges the gap between raw data and security alerts.
 
 ### 1. Parsing the Signature Configuration

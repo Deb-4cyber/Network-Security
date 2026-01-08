@@ -82,10 +82,10 @@ The script successfully processed various PCAP captures, yielding the following 
 
 ### 2. Terminal Output
 
-Figure 1: Detection results for Connect, Half-open, Null, and UDP scan captures. 
+- **Figure 1: Detection results for Connect, Half-open, Null, and UDP scan captures.** 
 <img width="750" height="425" alt="1" src="https://github.com/user-attachments/assets/a9fa145a-b9a1-4b62-8296-8c7b0dcd6027" />
 
-Figure 2: Detection results for XMAS scan capture. 
+- **Figure 2: Detection results for XMAS scan capture.** 
 <img width="800" height="226" alt="2" src="https://github.com/user-attachments/assets/bb3c1e30-6cd1-48a2-a60a-da5b753af959" />
 
 ## 💡 Challenges & Lessons Learned

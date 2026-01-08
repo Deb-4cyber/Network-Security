@@ -13,7 +13,7 @@ A high-performance suite of **Intrusion Detection Systems (IDS)** and **Forensic
 
 ---
 
-## 🛠️ Core Engineering Strengths
+## 🛠️ Core Industrial Strengths
 
 * **Intelligent Detection:** Custom-built signatures for "illegal" packet types (XMAS/Null) that bypass standard firewalls.
 * **Deep Packet Inspection:** Manual binary de-construction (L2-L4) for 100% forensic accuracy.

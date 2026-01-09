@@ -77,10 +77,10 @@ The script successfully processed various PCAP captures, yielding the following 
 
 ## 🖼️ Screenshots / Diagram
 
-### 1. Architecture Diagram
+### Architecture Diagram
    <img width="800" height="400" alt="Arch-Diagram" src="https://github.com/user-attachments/assets/dcf2ef34-81f2-4cef-bfed-b225aea8d69b" />
 
-### 2. Terminal Output
+### Terminal Output
 
 - **Figure 1: Detection results for Connect, Half-open, Null, and UDP scan captures.** 
 <img width="750" height="425" alt="1" src="https://github.com/user-attachments/assets/a9fa145a-b9a1-4b62-8296-8c7b0dcd6027" />
@@ -89,6 +89,7 @@ The script successfully processed various PCAP captures, yielding the following 
 <img width="800" height="226" alt="2" src="https://github.com/user-attachments/assets/bb3c1e30-6cd1-48a2-a60a-da5b753af959" />
 
 ## 💡 Challenges & Lessons Learned
+
 - **Handshake Differentiation:** Differentiating between Half-Open and Connect scans required targeting the specific `SYN+ACK` signature to identify completed connection attempts.
 - **Flag Logic:** Learned how Nmap exploits TCP state machines, specifically using "illegal" flag combinations like XMAS to elicit responses from diverse OS kernels.
 - **Large-Scale Processing:** Gained experience using `dpkt.pcap.Reader` for memory-efficient iteration, allowing for the successful parsing of a 126MB UDP capture file without overhead.
